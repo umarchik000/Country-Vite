@@ -1,0 +1,73 @@
+.Filter_Search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    position: relative;
+}
+
+.Search-Input {
+    width: 450px;
+    height: 56px;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    background: #ffffff;
+    border-radius: 5px;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 74px;
+    border: none;
+}
+
+.loopa {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    left: 12px;
+}
+
+
+.filter {
+    width: 200px;
+    height: 56px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px 0px #0000000E;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 20px;
+    gap: 47px;
+    background: #ffffff;
+    flex-direction: column;
+    position: relative;
+}
+
+.filter h1 {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.RegList {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    display: none;
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #ffffff;
+    align-items: start;
+    justify-content: center;
+    height: 160px;
+    gap: 5px;
+}
+
+.RegList.open {
+    display: flex;
+    flex-direction: column;
+}
