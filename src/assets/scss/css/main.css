@@ -27,6 +27,41 @@ a {
   margin: 0 auto;
 }
 
+@media (max-width: 1340px) {
+  .container {
+    max-width: 1111px;
+  }
+}
+@media (max-width: 1150px) {
+  .container {
+    max-width: 950px;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    max-width: 800px;
+  }
+}
+@media (max-width: 860px) {
+  .container {
+    max-width: 600px;
+  }
+}
+@media (max-width: 670px) {
+  .container {
+    max-width: 500px;
+  }
+}
+@media (max-width: 550px) {
+  .container {
+    max-width: 420px;
+  }
+}
+@media (max-width: 460px) {
+  .container {
+    max-width: 320px;
+  }
+}
 .Earth li {
   width: 264px;
   display: flex;
@@ -72,6 +107,67 @@ p {
   padding-left: 20px;
 }
 
+@media (max-width: 1340px) {
+  .Earth li {
+    width: 250px;
+  }
+}
+@media (max-width: 1150px) {
+  .Earth li {
+    width: 270px;
+  }
+}
+@media (max-width: 1000px) {
+  .Earth li {
+    width: 240px;
+  }
+}
+@media (max-width: 860px) {
+  .Earth li {
+    width: 280px;
+  }
+}
+@media (max-width: 670px) {
+  .Earth li {
+    width: 240px;
+  }
+  .Earth img {
+    height: 120px;
+  }
+  .Earth h1 {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .Earth p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 550px) {
+  .Earth li {
+    width: 200px;
+  }
+  .Earth img {
+    height: 100px;
+  }
+  .Earth div {
+    margin-top: 10px;
+  }
+  .Earth h1 {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .Earth p {
+    font-size: 9px;
+  }
+}
+@media (max-width: 460px) {
+  .Earth li {
+    width: 150px;
+  }
+  .Earth img {
+    height: 75px;
+  }
+}
 .Earth {
   padding-top: 50px;
   width: 100%;
@@ -82,6 +178,26 @@ p {
   gap: 74px;
 }
 
+@media (max-width: 1340px) {
+  .Earth {
+    gap: 37px;
+  }
+}
+@media (max-width: 1150px) {
+  .Earth {
+    gap: 70px;
+  }
+}
+@media (max-width: 1000px) {
+  .Earth {
+    gap: 40px;
+  }
+}
+@media (max-width: 670px) {
+  .Earth {
+    gap: 20px;
+  }
+}
 Header {
   display: flex;
   align-items: center;
@@ -128,6 +244,29 @@ header img {
   font-weight: 600;
 }
 
+@media (max-width: 860px) {
+  Header {
+    height: 70px;
+  }
+  header h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 550px) {
+  Header {
+    height: 50px;
+  }
+  header h1 {
+    font-size: 16px;
+  }
+  header img {
+    width: 16px;
+    height: 16px;
+  }
+  .header-wrapper div h1 {
+    font-size: 14px;
+  }
+}
 .Filter_Search {
   width: 100%;
   display: flex;
@@ -201,6 +340,86 @@ header img {
   flex-direction: column;
 }
 
+@media (max-width: 1000px) {
+  .Search-Input {
+    width: 300px;
+    padding-left: 40px;
+  }
+}
+@media (max-width: 860px) {
+  .Search-Input {
+    width: 250px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .loopa {
+    width: 16px;
+    height: 16px;
+    top: 12px;
+  }
+  .filter {
+    width: 150px;
+    height: 40px;
+  }
+  .filter h1 {
+    font-size: 14px;
+  }
+  .RegList {
+    width: 150px;
+  }
+}
+@media (max-width: 550px) {
+  .Filter_Search {
+    margin-top: 70px;
+  }
+  .Search-Input {
+    width: 200px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .loopa {
+    width: 12px;
+    height: 12px;
+    top: 14px;
+  }
+  .filter {
+    width: 115px;
+    height: 30px;
+  }
+  .filter h1 {
+    font-size: 10px;
+    line-height: 100%;
+  }
+  .RegList {
+    width: 150px;
+  }
+}
+@media (max-width: 550px) {
+  .Search-Input {
+    width: 150px;
+    padding-left: 20px;
+  }
+  .loopa {
+    width: 8px;
+    height: 8px;
+    top: 16px;
+    left: 10px;
+  }
+  .filter {
+    width: 100px;
+    height: 20px;
+  }
+  .filter h1 {
+    font-size: 8px;
+    height: 10px;
+    line-height: 100%;
+  }
+  .RegList {
+    width: 100px;
+    height: 100px;
+    top: 50px;
+  }
+}
 .Full-info-country {
   display: flex;
   align-items: center;
@@ -226,7 +445,7 @@ header img {
   justify-content: center;
   gap: 10px;
   top: 120px;
-  left: 120px;
+  left: 30px;
   position: absolute;
   text-decoration: none;
   color: red;
