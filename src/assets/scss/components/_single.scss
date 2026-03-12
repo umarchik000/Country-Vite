@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    top: 120px;
+    top: 100px;
     left: 30px;
     position: absolute;
     text-decoration: none;
@@ -107,4 +107,244 @@
     align-items: center;
     justify-content: center;
     color: darkred;
+}
+
+
+@media (max-width: 1340px) {
+
+
+    .Country-Img {
+        width: 500px;
+        height: 350px;
+    }
+
+    .Full-Info-Country {
+        width: 500px;
+        height: 350px;
+    }
+
+    .Full-Info-Country h1 {
+        font-size: 28px;
+    }
+
+    .FIC-context h1 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .FIC-context h1 span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .border-countries h1 {
+        font-size: 14px;
+    }
+
+    .border-countries a {
+        width: 80px;
+        height: 25px;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+
+    .Back {
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+
+    .Country-Img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .Full-Info-Country {
+        width: 400px;
+        height: 300px;
+    }
+
+    .Full-Info-Country h1 {
+        font-size: 24px;
+    }
+
+    .FIC-context {
+        gap: 100px;
+    }
+
+    .FIC-context h1 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .FIC-context h1 span {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .border-countries h1 {
+        font-size: 13px;
+    }
+
+    .border-countries a {
+        width: 70px;
+        height: 22px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+@media (max-width: 860px) {
+
+    .Full-info-country {
+        flex-direction: column;
+    }
+
+
+    .Country-Img {
+        width: 600px;
+        height: 350px;
+    }
+
+    .Full-Info-Country {
+        width: 600px;
+        height: 350px;
+    }
+
+    .Full-Info-Country h1 {
+        font-size: 28px;
+    }
+
+    .FIC-context h1 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .FIC-context h1 span {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .border-countries h1 {
+        font-size: 14px;
+    }
+
+    .border-countries a {
+        width: 80px;
+        height: 25px;
+    }
+
+
+
+}
+
+
+
+@media (max-width: 670px) {
+
+    .Back {
+        width: 80px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .Back img {
+        width: 15px;
+        height: 10px;
+    }
+
+    .Country-Img {
+        width: 400px;
+        height: 250px;
+    }
+
+    .Full-Info-Country {
+        width: 400px;
+        height: 350px;
+    }
+
+    .Full-Info-Country h1 {
+        font-size: 24px;
+    }
+
+    .FIC-context h1 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .FIC-context h1 span {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .border-countries h1 {
+        font-size: 13px;
+    }
+
+}
+
+
+
+@media (max-width: 550px) {
+
+    .Back {
+        width: 60px;
+        height: 20px;
+        font-size: 10px;
+        gap: 3px;
+        top: 67px;
+    }
+
+    .Back img {
+        width: 15px;
+        height: 10px;
+    }
+
+    .Full-info-country {
+        margin-top: 100px;
+    }
+
+    .Country-Img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .Full-Info-Country {
+        width: 300px;
+        height: 350px;
+    }
+
+    .FIC-context {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .Full-Info-Country h1 {
+        font-size: 24px;
+    }
+
+    .FIC-context h1 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .FIC-context h1 span {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .border-countries {
+        margin-top: 25px;
+    }
+
+    .border-countries h1 {
+        font-size: 13px;
+    }
+
 }
