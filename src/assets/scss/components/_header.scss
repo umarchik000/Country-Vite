@@ -11,6 +11,14 @@ Header {
     z-index: 1;
 }
 
+header.dark {
+    background: #2B3844;
+
+    h1 {
+        color: #fff;
+    }
+}
+
 .header-wrapper {
     width: 100%;
     display: flex;
@@ -31,6 +39,23 @@ header img {
     height: 20px;
 
 }
+
+.Mods {
+    width: 60px;
+    height: 30px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.Mods.dark {
+    color: white;
+    option {
+        background: #202b35;
+        color: white;
+    }
+}
+
 
 
 .header-wrapper div {
@@ -77,4 +102,3 @@ header img {
         font-size: 14px;
     }
 }
-

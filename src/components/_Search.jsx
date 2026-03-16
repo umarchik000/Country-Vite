@@ -1,4 +1,9 @@
+import { useTheme } from "../hooks/useTheme"
+
 export default function Search({ selAll }) {
+
+
+    const {theme, setTheme} = useTheme()
 
     const Filt = (arr) => {
 
@@ -28,7 +33,7 @@ export default function Search({ selAll }) {
 
     return (
         <>
-            <input onKeyUp={FilterIng} className="Search-Input" placeholder="Search your country..." type="text" />
+            <input onKeyUp={FilterIng} className={`Search-Input ${theme == "dark" ? "dark" : ""}`} placeholder="Search your country..." type="text" />
             <img className="loopa" src="/src/assets/icons/search.svg" alt="" />
         </>
     )

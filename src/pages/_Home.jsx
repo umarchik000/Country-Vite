@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react'
 import Country from '../components/_Country';
 import Countries from '../components/_Countries';
-import Header from '../components/_Header';
 import FilterSearch from '../components/_FIlterSearch';
 
  function Home() {
@@ -21,7 +20,6 @@ import FilterSearch from '../components/_FIlterSearch';
 
     return (
         <>
-            <Header />
             <FilterSearch selAll={selAll} />
 
             <div className="container">

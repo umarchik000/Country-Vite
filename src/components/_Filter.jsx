@@ -1,9 +1,11 @@
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
+import { useTheme } from '../hooks/useTheme';
 
 export default function Filter({selAll}) {
 
     const [regions, setRegions] = useState("Filter by region");
     const  [reg, setReg] = useState(false)
+    const {theme, setTheme} = useTheme()
 
     console.log(regions);
 
@@ -24,12 +26,12 @@ export default function Filter({selAll}) {
 
     return (
         <>
-            <div onClick={() => { setReg(!reg)}} className="filter">
+            <div onClick={() => { setReg(!reg)}} className={`filter ${theme == "dark" ? "dark" : ""}`}>
                 <div className="Reg">
                 <h1 onClick={() => setReg(!reg)}>{regions}</h1>
                 {/* <img src="" alt="" /> */}
                 </div>
-                <div  className={reg ? "RegList open" : "RegList"} >
+                <div  className={`${reg ? "RegList open" : "RegList"} ${theme == "dark" ? "dark" : ""}`} >
                     <h1 onClick={Reg}>Asia</h1>
                     <h1 onClick={Reg}>Europe</h1>
                     <h1 onClick={Reg}>Africa</h1>

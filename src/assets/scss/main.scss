@@ -2,7 +2,11 @@
 @import "./base/base";
 @import "./components/components";
 
+main {
+    background: #f4f4f4d2;
+    padding: 104px;
+}
 
-body {
-    background: rgba(244, 244, 244, 0.822);
+main.dark {
+    background: #202b35;
 }

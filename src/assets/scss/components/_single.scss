@@ -7,6 +7,16 @@
     position: relative;
 }
 
+.Full-info-country.dark {
+    h1 {
+        color: #fff;
+    }
+
+    span {
+        color: #f4f4f4d2;
+    }
+}
+
 .Back {
     width: 136px;
     height: 40px;
@@ -27,6 +37,11 @@
     position: absolute;
     text-decoration: none;
     color: red;
+    cursor: pointer;
+}
+
+.Back.dark {
+    background: #2B3844;
 }
 
 

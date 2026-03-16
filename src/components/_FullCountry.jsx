@@ -1,11 +1,13 @@
 
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom"
+import { useTheme } from "../hooks/useTheme";
 
 export default function FullCountry({ country }) {
 
     const navigate = useNavigate();
     const [borderCountries, setBorderCountries] = useState([])
+    const {theme} = useTheme()
     const { region, population, capital, flags, name, tld, subregion, languages, currencies, borders } = country
 
 
@@ -29,9 +31,9 @@ export default function FullCountry({ country }) {
 
     return (
         <>
-            <h3 className="Back" onClick={() => navigate(-1)}> <img src="/src/assets/icons/call-made.svg" alt="" />   Back</h3>
+            <h3 className={`Back ${theme == "dark" ? "dark" : ""}`} onClick={() => navigate(-1)}> <img src="/src/assets/icons/call-made.svg" alt="" />   Back</h3>
             <div class="container">
-                <div class="Full-info-country">
+                <div class={`Full-info-country ${theme == "dark" ? "dark" : ""}`}>
                     <img className="Country-Img" src={flags?.png} alt="" />
                     <div className="Full-Info-Country">
                         <h1>{name?.common}</h1>

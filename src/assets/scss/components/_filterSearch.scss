@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 100px;
     position: relative;
 }
 
@@ -19,6 +18,11 @@
     line-height: 20px;
     padding-left: 74px;
     border: none;
+}
+
+.Search-Input.dark {
+    background: #2B3844;
+    color: #ffffff;
 }
 
 .loopa {
@@ -45,6 +49,11 @@
     position: relative;
 }
 
+.filter.dark {
+    background: #2B3844;
+    color: #ffffff;
+}
+
 .filter h1 {
     font-family: Nunito Sans;
     font-weight: 400;
@@ -65,6 +74,10 @@
     justify-content: center;
     height: 160px;
     gap: 5px;
+}
+
+.RegList.dark {
+    background: #2B3844;
 }
 
 .RegList.open {

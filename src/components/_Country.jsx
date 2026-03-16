@@ -1,3 +1,8 @@
+import { useTheme } from "../hooks/useTheme"
+
 export default function Country({children}) {
-    return <ul className="Earth">{children}</ul>
+
+    const {theme} = useTheme()
+
+    return <ul className={`Earth ${theme == "dark" ? "dark" : ""}`}>{children}</ul>
 }
